@@ -23,3 +23,12 @@ $(function () {
     source: skillNames,
   });
 });
+
+$(function () {
+  $('#datepicker').datepicker({
+    changeMonth: true,
+    changeYear: true,
+  });
+});
+
+
